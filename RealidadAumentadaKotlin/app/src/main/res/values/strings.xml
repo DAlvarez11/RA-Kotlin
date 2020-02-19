@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RA Prototype Kotlin</string>
+
+    <string name="titulo">Información del producto</string>
+
+    <string name="silla">Silla de computadora</string>
+    <string name="cajon">Cajon de sala</string>
+    <string name="mesa">Mesa</string>
+    <string name="mesa_marmol">Mesa Marmol</string>
+    <string name="cama">Cama matrimonial</string>
+
+    <string name="biografía_silla"> Precio: $30. \n\nDisponibles: 200</string>
+    <string name="biografía_cajon"> Precio: $100. \n\nDisponibles: 10</string>
+    <string name="biografía_cama"> Precio: $200. \n\nDisponibles: 45</string>
+    <string name="biografía_mesa"> Precio: $50. \n\nDisponibles: 28</string>
+    <string name="biografía_mesa_marmol"> Precio del Producto : $90. \n\nDisponibles: 5</string>
+</resources>

@@ -1,0 +1,112 @@
+{
+  animations: [
+    {
+      path: 'sampledata/models/bed.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Mat.1',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'wood-texture',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Mat.2',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Tissus 20',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/models/bed.fbx',
+    name: 'bed',
+    recenter: 'root',
+    scale: 0.047407999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\bed.fbm\\Tissus 20.jpg',
+      name: 'Tissus 20',
+      pipeline_name: 'bed.fbm\\Tissus 20.jpg',
+    },
+    {
+      file: 'sampledata/models\\bed.fbm\\wood-texture.jpg',
+      name: 'wood-texture',
+      pipeline_name: 'bed.fbm\\wood-texture.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
